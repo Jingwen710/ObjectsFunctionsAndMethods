@@ -194,9 +194,9 @@ def try_functions():
      -- One jumps to (100, 200), then moves (while drawing) to (0, 0)
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
-    jump_and_move_turtle(200,100,300,30)
-    jump_and_move_turtle(100,200,0,0)
-    jump_and_move_turtle(-50,50,100,100)
+    jump_and_move_turtle(200, 100, 300, 30)
+    jump_and_move_turtle(100, 200, 0, 0)
+    jump_and_move_turtle(-50, 50, 100, 100)
     ####################################################################
     # Done: 4. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
@@ -244,22 +244,22 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     frank = rg.SimpleTurtle()
-    frank.pen = rg.Pen('blue',5)
+    frank.pen = rg.Pen('blue', 5)
 
     frank.speed = 1
-    draw_many_squares(frank,2,100,30)
+    draw_many_squares(frank, 2, 100, 30)
 
     frank.forward(150)
     frank.speed = 5
-    frank.pen = rg.Pen('red',5)
+    frank.pen = rg.Pen('red', 5)
     draw_many_squares(frank, 10, 50, 15)
 
     frank.speed = 100
-    frank.pen = rg.Pen('red',35)
+    frank.pen = rg.Pen('red', 35)
     draw_many_squares(frank, 8, 300, 60)
 
     frank.pen_up()
-    frank.pen = rg.Pen('black',3)
+    frank.pen = rg.Pen('black', 3)
     frank.backward(200)
     frank.draw_circle(30)
     frank.draw_square(50)
