@@ -54,10 +54,10 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #               circle.outline_thickness
 #
 #     f. What does a RoseWindow RENDER method do?
-#            draw all the objects to the designated window
+#            This method draws all the objects to the designated window
 #
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
-#            this method keeps the window displayed until the user does not want it show up and clicks
+#            This method keeps the window displayed until the user does not want it show up and clicks.
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
