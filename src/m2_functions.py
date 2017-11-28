@@ -124,7 +124,7 @@ def turtle5():
     ninja.pen = rg.Pen('gray60', 10)
 
     ninja.right(90)
-    ninja.draw_regular_polygon(5,100)
+    ninja.draw_regular_polygon(5, 100)
 
     mango = rg.SimpleTurtle()
     mango.pen = rg.Pen('Orange', 8)
@@ -251,5 +251,6 @@ def turtle5():
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
-main()
 
+
+main()
